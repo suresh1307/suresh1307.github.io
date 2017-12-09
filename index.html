@@ -4,26 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Profile</title>
+    <title>Bootstrap test page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
-<body style="background-color: lightblue;">
-    <h1 style="background-color: Dodgerblue;color:white;">My profile</h1>
-    <p><img src="photo.jpg" style= "float:right;width:300px;height:200px">
-        <h2 style="background-color:tomato;color:white;"><strong>Suresh Nadarajan</strong><br>
-        suresh_n@live.com</h2></p>
-        <p>Welcome to my site profile.  Please feel free to email me if you 
-            would like to seek my advice.  I will be very <en>glad</en> to help you.  
-        </p>
-            <h3>My hobbies</h3>
-                <h4>
-                <ul><li>Reading</li>
-                <li>Swimming</li>
-                <li>movies</li>
-                <li>listening to music</li></ol></h4>
-                <br><P><h3>My favourite podcast of the week from BBC world service.</h3>
-                    <audio controls><source src="podcast1.mp3" type="audio/mpeg"></audio></P>
-                <h3>I am planning to watch the following movie next week.</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3cxixDgHUYw"</iframe>
-
-</body>
+    <div class="container">        
+    <div class="jumbotron">
+            <h1 class="text-center">Welcome to my Website.</h1>
+            <div class="row">
+            <div class="col-sm-4">
+            <img src="\images\photo.jpg" style="height:300px;width:300px;" 
+            class="img-responsive img-thumbnail img-circle center-block">
+            </div>
+            <div class="col-sm-8">
+            <h2><strong>Suresh Nadarajan</strong>
+            <p>suresh_n@live.com</p></h2>
+            <p>This is site where you can get to know me better, my thoughts and my hobbies.  
+            Stick around and we can be good friends.
+            </p>
+            <p>Right now, I am attended a course called coder in you.  Click on the link below to know more about what i am learning.
+            </p>
+            <a href="tranquility.html">link to Forms
+            </a>
+            </div></div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="panel panel-info">
+                                <div class="panel-heading"><h3>My favourite movie</h3>
+                            </div>
+                            <div class="panel-body">
+                                <p>This is my favourite movie of the month !! Yes, you mainstream marvel fans !  
+                                 Yes, it is a dark and violent movie !! Who ever told you that being a Superhero was fun!</p>
+                                 <img src="/images/justice league.jpg" class="img-fluid img-thumbnail">    
+                             </div>
+                        </div>                  
+                    </div>
+                    <div class="col-sm-4">
+                    <h3>My favourite podcast</h3>
+                    <p>Hi there !  This is an interesting podcast I had listened to last week on BBC.  Do listen to it 
+                    and you will see how similar it was to Los Alamos.
+                    <br><audio controls><source src="/sound/podcast1.mp3" type="audio/mpeg"></audio>
+                    </p>
+                    </div>
+                    <div class="col-sm-4">
+                    <h3>My hobbies</h3> 
+                        <p><ul><li>Reading</li>
+                        <li>Swimming</li>
+                        <li>movies</li>
+                        <li>listening to music</li></ul></p>
+                    </div></div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-2">
+                                   <div class="panel panel-info">
+                                            <div class="panel-heading"><h2>Forms</h3>
+                                        </div>
+                                        <div class="panel-body">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsam exercitationem eum excepturi beatae aliquid sed sapiente ducimus neque illo. Adipisci reprehenderit voluptatem rem sequi consectetur hic magnam veritatis perferendis.</h3>
+                                        </div>
+                    </div></div>
+                    <div class="col-sm-6">
+                                <div class="panel panel-info">
+                                <div class="panel-body">
+                                <h4>Please complete the form here.  I will get in touch with you in 3 working days.
+                                </h4></div></div>
+                    </div>
+                    </div>
 </html>
