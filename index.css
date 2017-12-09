@@ -1,0 +1,35 @@
+@media(min-width:700 px)
+{background-color: blue;
+}
+h1{
+    font-family:monospace;
+}
+h3{
+   font-family:monospace;
+   color:black; 
+}
+h4{
+    font-family:monospace;
+    color:red; 
+}
+.p1-my{text-shadow: 3px 2px blue;
+}
+audio{
+    background-color: black
+}
+body{
+    background-image:url('url') 
+}
+.p1-style{font-style: oblique;
+}
+a{
+    background-color: wheat;
+a:hover{
+    background-color: red;
+}
+a:active{
+    background-color: orange;
+}
+a:visited{
+    background-color: blue;
+}
